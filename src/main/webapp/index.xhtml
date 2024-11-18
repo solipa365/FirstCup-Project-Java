@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <title>FirstCup Project</title>
+        <link rel="stylesheet" type="text/css" href="resources/style/styles.css" />
+        <link href="/resources/img/favicon.png" rel="icon" type="image/png" />
+    </h:head>
+    
+    <h:body>
+        <div class="content">
+            
+            <h1>TEMAS GERAIS</h1>
+
+            <h2>1. Open Liberty</h2>
+            <h3>Definição e Propósito</h3>
+            <p>Open Liberty é um servidor de aplicações de código aberto mantido pela IBM, desenvolvido para Java EE. Seu objetivo é fornecer um servidor leve e rápido para execução de aplicações empresariais e microservices.</p>
+
+            <h3>Principais Características</h3>
+            <ul>
+                <li><strong>Leve e Modular:</strong> Oferece apenas o que é necessário, permitindo que os desenvolvedores escolham os recursos específicos para suas aplicações, o que reduz o tempo de inicialização e o uso de memória.</li>
+                <li><strong>Atualizações Contínuas:</strong> A IBM atualiza regularmente o Open Liberty para garantir compatibilidade com as últimas versões de Java EE.</li>
+                <li><strong>Compatibilidade com Microservices:</strong> Projetado para suportar microservices e arquitetura em nuvem, facilitando a implementação e o gerenciamento de serviços independentes.</li>
+                <li><strong>Desenvolvimento Rápido e Contínuo:</strong> Com suporte ao desenvolvimento contínuo (DevOps), permite a integração com ferramentas de automação.</li>
+            </ul>
+
+            <h3>Vantagens do Open Liberty para Java EE</h3>
+            <ul>
+                <li><strong>Rápido e Escalável:</strong> Capaz de rodar com poucos recursos, o que o torna ideal para ambientes de desenvolvimento ágeis.</li>
+                <li><strong>Ambiente Seguro e Confiável:</strong> Implementa práticas de segurança com suporte para TLS, criptografia e integração com sistemas de autenticação robustos.</li>
+                <li><strong>Integração com Cloud e Containers:</strong> Open Liberty é otimizado para ambientes de contêineres e nuvem, permitindo que as aplicações escalem facilmente.</li>
+            </ul>
+
+            <h2>2. Containers</h2>
+            <h3>Os contêineres são ambientes leves que contêm todas as dependências de uma aplicação, facilitando a portabilidade e a consistência entre ambientes.</h3>
+
+            <h4>Docker e Contêineres</h4>
+            <h3>Definição e Importância</h3>
+            <p><strong>Docker</strong> é uma plataforma que permite empacotar, distribuir e executar aplicações em contêineres. <strong>Benefícios dos Contêineres:</strong> Rápida inicialização, uso eficiente de recursos e isolamento de processos, que ajuda a evitar conflitos de dependências.</p>
+
+            <h3>Como Docker Transforma o Desenvolvimento e a Entrega de Aplicações</h3>
+            <ul>
+                <li><strong>Portabilidade:</strong> Os contêineres garantem que o código funcione da mesma maneira em qualquer ambiente (desenvolvimento, teste, produção).</li>
+                <li><strong>Escalabilidade:</strong> É fácil escalar contêineres para atender a uma demanda crescente.</li>
+                <li><strong>Integração com CI/CD:</strong> Docker é essencial em pipelines de CI/CD, pois permite testar, construir e implantar rapidamente novas versões de aplicações.</li>
+            </ul>
+
+            <h3>Docker para Aplicações Java EE com Open Liberty</h3>
+            <ul>
+                <li><strong>Containerizando o Open Liberty:</strong> O servidor pode ser facilmente empacotado em um contêiner Docker, o que simplifica a distribuição e o escalonamento de aplicações Java EE.</li>
+                <li><strong>Imagens Oficiais:</strong> O Open Liberty fornece imagens Docker oficiais, que facilitam a implementação rápida e segura de aplicações Java em contêineres.</li>
+                <li><strong>Práticas de Configuração:</strong> As aplicações podem ser configuradas usando variáveis de ambiente e volumes do Docker, o que permite manter o código e as configurações independentes do contêiner.</li>
+            </ul>
+
+            <h2>3. Java EE</h2>
+            <h3>Histórico e Evolução</h3>
+            <p><strong>Java EE</strong> foi o nome original da especificação, usada por muitos anos para desenvolvimento de aplicações empresariais em Java. <strong>Objetivo:</strong> Fornecer um conjunto de APIs padronizadas para desenvolvimento de aplicações robustas e seguras, desde pequenos serviços até grandes sistemas corporativos.</p>
+
+            <h3>Principais APIs e Funcionalidades do Java EE</h3>
+            <ul>
+                <li><strong>JPA (Java Persistence API):</strong> Para operações de banco de dados.</li>
+                <li><strong>JMS (Java Message Service):</strong> Para comunicação assíncrona entre sistemas.</li>
+                <li><strong>EJB (Enterprise Java Beans):</strong> Para lógica de negócios complexa e modular.</li>
+            </ul>
+
+            <h3>Jakarta EE no Contexto de Microservices e Containers</h3>
+            <p>O Jakarta EE evoluiu para atender as demandas de aplicações em contêineres e microservices, incluindo suporte a APIs como o MicroProfile, que adiciona funcionalidades de observabilidade e tolerância a falhas.</p>
+            <ul>
+                <li><strong>MicroProfile:</strong> É um conjunto de especificações que complementa o Jakarta EE para suportar a criação e a manutenção de microservices.</li>
+            </ul>
+
+            <h1>TEMAS DO NOSSO GRUPO</h1>
+
+            <h2>Campos com Múltiplos Valores</h2>
+            <h3>Definição</h3>
+            <p>Em bancos de dados e programação, <strong>campos com múltiplos valores</strong> referem-se a atributos ou colunas que podem armazenar mais de um valor por registro. Essa abordagem permite que um campo contenha uma coleção de valores em vez de um valor único. Por exemplo, imagine uma tabela de produtos em que o campo "Cores Disponíveis" possa armazenar várias cores para um mesmo produto.</p>
+
+            <h3>Exemplos</h3>
+            <ul>
+                <li><strong>Banco de Dados Relacional:</strong> Em sistemas de banco de dados relacionais, campos com múltiplos valores geralmente exigem a criação de tabelas associativas (como tabelas de relacionamento muitos-para-muitos) ou o uso de tipos específicos como arrays ou listas.</li>
+                <li><strong>NoSQL:</strong> Em bancos de dados NoSQL, como MongoDB, é comum armazenar múltiplos valores em campos usando arrays ou documentos aninhados.</li>
+            </ul>
+
+            <h3>Vantagens</h3>
+            <ul>
+                <li><strong>Reduz a Redundância:</strong> Evita a duplicação de registros para armazenar variações do mesmo item.</li>
+                <li><strong>Facilita o Agrupamento de Dados:</strong> Campos com múltiplos valores são úteis para dados que pertencem a uma categoria comum, como habilidades de um funcionário ou tags de uma postagem.</li>
+            </ul>
+
+            <h3>Desvantagens</h3>
+            <ul>
+                <li><strong>Complexidade para Consultas:</strong> Consultar, filtrar e manipular dados em campos com múltiplos valores pode exigir sintaxe específica e processos adicionais, especialmente em bancos de dados relacionais.</li>
+                <li><strong>Risco de Violação de Normalização:</strong> Em bancos de dados relacionais, armazenar múltiplos valores em uma coluna (por exemplo, com uma string separada por vírgulas) pode violar a normalização e comprometer o desempenho e a integridade do banco de dados.</li>
+            </ul>
+
+            <h2>Tipos Enumerados (Enums) em Java</h2>
+            <h3>O que são Tipos Enumerados?</h3>
+            <p>Definição: Em Java, um tipo enumerado (ou enum) é uma estrutura especial que permite definir um conjunto fixo de constantes relacionadas.</p>
+            <p>Propósito: São usados para representar valores que não mudam e são conhecidos de antemão, como dias da semana, meses do ano, ou estados de um processo.</p>
+            <p>Alternativa a Constantes: Em vez de usar constantes soltas, os enums agrupam valores fixos em um único lugar, melhorando a organização do código.</p>
+
+            <h3>Como Declarar um Enum</h3>
+            <p>Palavra-chave enum: Para declarar um enum, usamos a palavra-chave enum seguida do nome do tipo e das constantes que ele deve conter.</p>
+            <p>Organização: As constantes são colocadas como uma lista separada por vírgulas e escrita em letras maiúsculas, por convenção.</p>
+            <p>Exemplo de Aplicação: Definir um enum para representar os dias da semana pode ser feito assim:</p>
+            <pre>
+            public enum DiaDaSemana {
+                DOMINGO,
+                SEGUNDA,
+                TERÇA,
+                QUARTA,
+                QUINTA,
+                SEXTA,
+                SABADO
+            }
+            </pre>
+
+            <h3>Uso de Enums</h3>
+            <p>Declaração e Uso: Os enums podem ser usados em condicionais e loops, facilitando o controle de fluxo em código que precisa operar com um conjunto limitado de opções.</p>
+            <p>Exemplo:</p>
+            <pre>
+            public void verificarDia(DiaDaSemana dia) {
+                switch (dia) {
+                    case SEGUNDA:
+                        System.out.println("Começo da semana!");
+                        break;
+                    case SEXTA:
+                        System.out.println("Quase fim de semana!");
+                        break;
+                    default:
+                        System.out.println("Dia comum.");
+                }
+            }
+            </pre>
+
+            <h3>Vantagens dos Enums</h3>
+            <ul>
+                <li><strong>Segurança de Tipo:</strong> O compilador verifica os valores passados, reduzindo erros.</li>
+                <li><strong>Organização:</strong> Mantém as constantes relacionadas juntas, facilitando a manutenção do código.</li>
+                <li><strong>Extensibilidade:</strong> Suportam métodos e atributos, permitindo comportamentos mais complexos.</li>
+            </ul>
+
+            <h3>Conclusão</h3>
+            <p>Os tipos enumerados em Java são uma ferramenta poderosa que ajuda a tornar o código mais legível, seguro e organizado. Ao usá-los corretamente, é possível evitar erros comuns e simplificar o gerenciamento de constantes relacionadas.</p>
+            
+        </div>
+    </h:body>
+</html>

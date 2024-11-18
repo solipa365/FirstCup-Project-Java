@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+/*
+    Created on : 11/10/2024, 12:54:32
+    Author     : solipa365
+*/
+
+/* styles.css */
+
+/* Define o fundo da página como azul claro */
+body {
+    background-color: #ADD8E6; /* Azul claro */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centraliza o conteúdo e dá espaçamento */
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #003366; /* Azul escuro */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #004080; /* Azul mais escuro */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #00509E; /* Azul moderado */
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #00509E; /* Azul moderado */
+    margin-bottom: 5px;
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilo para as listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Adiciona destaque ao texto em negrito */
+strong {
+    color: #000080; /* Azul profundo */
+}
+
+/* Estilo para o código e pre */
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    font-family: Consolas, "Courier New", monospace;
+    margin-bottom: 15px;
+}
+
+code {
+    background-color: #eaeaea;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #00509E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
