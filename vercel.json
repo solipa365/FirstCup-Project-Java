@@ -9,6 +9,10 @@
     {
       "src": "/(.*)",
       "dest": "/target/static/$1"
+    },
+    {
+      "src": "/pom.xml",
+      "dest": "/pom.xml"
     }
   ]
 }
