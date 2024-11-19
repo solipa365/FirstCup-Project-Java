@@ -1,15 +1,14 @@
 {
-    "builds": [
-      {
-        "src": "webapp/**/*",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/webapp/$1"
-      }
-    ]
-  }
-  
+  "builds": [
+    {
+      "src": "target/static/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/target/static/$1"
+    }
+  ]
+}
